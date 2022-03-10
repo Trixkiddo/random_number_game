@@ -17,12 +17,17 @@
   display: flex;
   width: 500px;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+}
+
+#questions :last-child {
+  margin-bottom: 20px;
 }
 
 .question {
   width: 450px;
   height: 50px;
   border: 1px solid black;
+  margin: 10px;
 }
