@@ -11,6 +11,7 @@
   width: 500px;
   height: 150px;
   border: 2px black solid;
+  border-radius: 3px;
 }
 
 #questions {
@@ -26,7 +27,8 @@
   border: 1px solid black;
   border-radius: 3px;
   margin: 10px;
-  cursor: pointer;
+  cursor: text;
+  text-align: center;
 }
 
 .button {
@@ -44,4 +46,6 @@
   width: 65px;
   align-self: center;
   justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
 }
