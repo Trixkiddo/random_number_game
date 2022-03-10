@@ -1,5 +1,7 @@
 .container {
   display: flex;
+  height: 500px; /* agrandir la hauteur du conteneur pour le
+  déplacer sur l'axe vertical quand peu d'éléments dans body */
   justify-content: center;
   align-items: center;
 
