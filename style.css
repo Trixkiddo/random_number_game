@@ -28,8 +28,11 @@
   border-radius: 3px;
   margin: 10px;
   cursor: text;
-  text-align: center;
+  text-align: left;
+  padding-left: 10px;
+  font-size: medium;
 }
+
 
 .button {
   display: flex;
@@ -46,6 +49,6 @@
   width: 65px;
   align-self: center;
   justify-content: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
 }
