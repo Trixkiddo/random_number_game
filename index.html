@@ -12,12 +12,13 @@
   <div class="container">
     <div id="game-frame">
       <div id="questions">
-        <input class="question" type="text" placeholder="Devinez le juste prix ! (entre 0 et 1000)">
-        <div class="button">
-          <p class="try">Try it !</p>
-        </div>
+        <form id="my-form">
+          <input id="my-input" name="name" class="question" type="text" placeholder="Devinez le juste prix ! (entre 0 et 1000)"> <!--enregistrer-->
+          <input type="submit" value="Try it !" class="button"> <!--soumet le formulaire-->
+        </form>
       </div>
     </div>
+      <button id="my-button">BUTTON</button>
   </div>
 
   <script src="script.js"></script>
